@@ -50,7 +50,7 @@ const calculateBill = () => {
   // console.log(noOfPeople)
   // calculate the per person total (total divided by number of people)
 
-  perPersonTotalDiv.innerText=`RS:${noOfPeople.toFixed(2)}`
+  perPersonTotalDiv.innerText=`$${noOfPeople.toFixed(2)}`
   // update the perPersonTotal on DOM & show it to user
 
 }
